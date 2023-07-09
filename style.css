@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(86, 48, 23);
+    padding: 5px;
+}
+h1{
+        padding: 5px;
+        color:aliceblue;
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.cabecalho{
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid;
+    color: azure;
+    background-color: black;
+}
+
+li{
+    display: inline;
+    padding: 2%;
+    background-color: black;
+   
+}
+ul{
+    background-color: black;
+ 
+}
+h2{
+    background-color: black;
+}
+
+
+.cardapio{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    border: 2px solid;
+    border-color: azure;
+    color: aliceblue;
+    width: 30rem;
+    height: 30rem;
+    padding: 1%;
+    
+   
+}
+.prato{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    border: 2px solid;
+    border-color: azure;
+    color: aliceblue;
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    padding: 1%;
+    flex-direction: column;
+ 
+} 
+.sobremesa{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    border: 2px solid;
+    border-color: azure;
+    color: aliceblue;
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    display: flex;
+    top: 950px;
+    padding: 1%;
+    justify-content: center;
+    flex-direction: column;
+}
+.bebidas{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    border: 2px solid;
+    border-color: azure;
+    color: aliceblue;
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    display: flex;
+    top: 950px;
+    left: 50%;
+    padding: 1%;
+    flex-direction: column;
+}
+
+.container{
+ 
+   display: flex;
+   flex-direction: row;
+   padding: 4%;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.logo{
+    left: 9%;
+    position: relative; 
+}
