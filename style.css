@@ -1,10 +1,12 @@
 body{
-    background-color: rgb(86, 48, 23);
+    background-color: rgb(142, 112, 40);
     padding: 5px;
 }
-h1{
-        padding: 5px;
-        color:aliceblue;
+h2{
+        display: flex;
+        left: 60px;
+        position: relative;
+        color:rgb(233, 239, 244);
         font-family: 'Courier New', Courier, monospace;
 }
 
@@ -26,9 +28,6 @@ ul{
     background-color: black;
  
 }
-h2{
-    background-color: black;
-}
 
 
 .cardapio{
@@ -38,9 +37,10 @@ h2{
     border-color: azure;
     color: aliceblue;
     width: 30rem;
-    height: 30rem;
-    padding: 1%;
-    
+    height: 35rem;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
    
 }
 .prato{
@@ -50,12 +50,12 @@ h2{
     border-color: azure;
     color: aliceblue;
     width: 30rem;
-    height: 30rem;
-    position: absolute;
-    display: flex;
-    left: 50%;
-    padding: 1%;
-    flex-direction: column;
+    height: 35rem;
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+
  
 } 
 .sobremesa{
@@ -65,13 +65,12 @@ h2{
     border-color: azure;
     color: aliceblue;
     width: 30rem;
-    height: 30rem;
-    position: absolute;
-    display: flex;
-    top: 950px;
-    padding: 1%;
-    justify-content: center;
-    flex-direction: column;
+    height: 35rem;
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+ 
 }
 .bebidas{
     font-family: 'Courier New', Courier, monospace;
@@ -80,20 +79,23 @@ h2{
     border-color: azure;
     color: aliceblue;
     width: 30rem;
-    height: 30rem;
-    position: absolute;
-    display: flex;
-    top: 950px;
-    left: 50%;
-    padding: 1%;
-    flex-direction: column;
+    height: 35rem;
+    position: relative;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+   
 }
 
 .container{
- 
-   display: flex;
-   flex-direction: row;
-   padding: 4%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    height: 700px;
 }
 
 .btn{

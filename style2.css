@@ -1,28 +1,33 @@
 body{
-    background-color: rgb(86, 48, 23);
+    background-color: rgb(142, 112, 40)
 }
 h1{
     font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.container2{
-    align-items: center;
+.container{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-   
+    position: relative;
     }
 
-    .input2{
-        display: flex;
-        left: 60%;
-    }
+.inputs{
+   position: relative;
+   margin: 10px;
+}
+input{
+    border: 2px solid black;
+    width: 200px;
+    height: 25px;
+}
+
 .btn{
     cursor: pointer;
 }
-input:focus{
-    border: 1px solid;
-}
-.btn{
-    cursor: pointer;
+p{
+    color: white;
 }
